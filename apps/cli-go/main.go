@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/macedev-tech/macedev-platform/apps/cli-go/cmd"
 
 func main() {
-	fmt.Println("Olá, MaceDev Platform!")
+	cmd.Execute()
 }
